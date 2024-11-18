@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ass.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a  id="logo" href="home.html">Masak Yuk!</a>
+        </div>
+        <div class="nav-right">
+            <ul>  
+                <li>
+                    <a href="Resep.html">Resep</a>
+                </li>
+                <li>
+                    <a href="resepmu.html"Resepmu>Resepmu</a>
+                </li>
+                <li>
+                    <a href="bahan.html" >Bahan-Bahan</a>
+                </li>
+            </ul>
+            <div class="search-box">
+                <img src="foto/properti/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="foto/properti/profil.jpg">
+            </div>
+        </div>
+  
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <ul class="settings-menu-inner">
+                <li class="user-profile">
+                    <a href="alexander.html">
+                        <div class="icon">
+                           <span class="fas fa-user"></span>
+                        </div>
+                        Alexander
+                     </a>
+                </li>
+                <hr>
+                <div class="user-profile">
+                    <img src="foto/properti/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links" id="setting-item">
+                    <img src="foto/properti/setting.png" class="setting-icon">
+                    <a href="#">Setting & Privacy <img src="foto/properti/arrow.png" width="10px"></a>  
+                </div>
+                <div class="settings-links">
+                    <img src="foto/properti/help.png" class="setting-icon">
+                    <a href="#">help & Support <img src="foto/properti/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="foto/properti/display.png" class="setting-icon">
+                    <a href="#">Display & Accessibility <img src="foto/properti/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="foto/properti/logout.png" class="setting-icon">
+                    <a href="login.html">Logout</a>
+                </div>
+            </ul>
+            <ul class="setting-drop">
+                <li class="arrow back-setting-btn"><span class="fas fa-arrow-left"></span>Settings & privacy</li>
+                <li>
+                <a href="personalinfo.html">
+                    <div class="icon">
+                        <span class="fas fa-user"></span>
+                    </div>
+                    Personal info 
+                </a>
+                </li>
+                <li>
+                <a href="pw.html">
+                    <div class="icon">
+                        <span class="fas fa-lock"></span>
+                    </div>
+                    Password 
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <div class="icon">
+                        <span class="fas fa-address-book"></span>
+                    </div>
+                    Activity log 
+                </a>
+                </li>
+            </ul>
+        </div>
+     </nav>
+     <script src="All.js"></script>
+</body>
+</html>
